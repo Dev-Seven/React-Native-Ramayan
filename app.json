@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "SGS Ramayana",
+    "slug": "sgs-Ramayana",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splashLogo.png",
+    "entryPoint": "./index.js",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.shlocks.ramayana",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.shlocks.ramayana",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splashLogo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    }
+  }
+}
